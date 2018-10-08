@@ -7,7 +7,7 @@ mod-ui docker image
 2. To run it:
 
     ```
-    sudo docker run -p 8888:8888 --user=1000 -v /dev/snd:/dev/snd:rw -v /dev/shm:/dev/shm:rw guysoft/mod-
+    docker run -p 8888:8888 --user=1000 -v /dev/snd:/dev/snd:rw -v /dev/shm:/dev/shm:rw guysoft/mod-
     ui
     ```
 
