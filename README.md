@@ -3,7 +3,7 @@ mod-ui docker image
 
 ### Usage
 
-1. Start jack on (example when user running jaack is user id 1000)
+1. Start jack on (example when user running jack 2 is user id 1000)
 2. To run it:
 
     ```
