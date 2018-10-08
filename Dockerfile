@@ -1,5 +1,5 @@
 FROM ubuntu:18.04
-MAINTAINER Guy Sheffer <guy@shapedo.com>
+MAINTAINER Guy Sheffer <guysoft@gmail.com>
 
 # Parts taken from https://github.com/elgalu/docker-selenium/blob/master/Dockerfile
 
