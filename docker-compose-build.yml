@@ -1,0 +1,16 @@
+version: '3.6'
+
+services:
+  mod-ui:
+    container_name: mod-ui
+    build:
+      context: .
+    restart: always
+    volumes:
+      - /dev/snd:/dev/snd:rw
+      - /dev/shm:/dev/shm:rw
+    tty: true
+    user: "1000"
+    ports:
+      - "8888:8888"
+
