@@ -101,6 +101,8 @@ RUN /home/moduser/install_mod-host.sh
 
 COPY ./install_mod-ui.sh /home/moduser/install_mod-ui.sh
 RUN /home/moduser/install_mod-ui.sh
+VOLUME /home/moduser/mod-ui/data
+
 
 
 COPY ./install_mod-distortion.sh /home/moduser/install_mod-distortion.sh

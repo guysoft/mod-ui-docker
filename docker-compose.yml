@@ -12,4 +12,8 @@ services:
     user: "1000"
     ports:
       - "8888:8888"
-
+volumes:
+  mod-ui-data:
+    driver: local
+    external:
+      name: mod-ui-data
