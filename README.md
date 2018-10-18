@@ -6,7 +6,7 @@ This is an LV2 linux plugin host. Attaching this plugin would let you control LV
 The continer comes with sevral pre-compiled plugins, and you can add more and build them using your own image.
 
 
-## Featues
+## Features
   * Runs mod-ui host out of the box
   * By default user information is saved on a volume ``mod-ui-data`` mapped to ``/home/moduser/mod-ui/data``
   
