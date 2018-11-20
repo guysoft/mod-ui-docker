@@ -1,6 +1,8 @@
 mod-ui docker image
 ===================
 
+![](https://dockerbuildbadges.quelltext.eu/status.svg?organization=guysoft&repository=mod-ui)
+
 mod-ui docker container lets you run on any machine that has jack an instance of the UI for the MOD software.
 This is an LV2 linux plugin host. Attaching this plugin would let you control LV2 plugins from your browser.
 The continer comes with sevral pre-compiled plugins, and you can add more and build them using your own image.
